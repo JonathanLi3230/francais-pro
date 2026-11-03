@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Français Pro</title>
+<meta name="description" content="Spoken business French flashcards for intermediate learners: meetings, presenting, feedback, small talk and the trading floor.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,650&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand" data-go="home"><span class="mark">FP</span><span class="name">Français <em>Pro</em></span></div>
+  <nav class="tabs" id="tabs">
+    <button data-go="home">Home</button>
+    <button data-go="study">Review</button>
+    <button data-go="browse">Browse</button>
+    <button data-go="quiz">Quiz</button>
+    <button data-go="listen">Listening</button>
+    <button data-go="settings" aria-label="Settings">⚙</button>
+  </nav>
+</header>
+<main id="app"></main>
+<div id="toast" class="toast" hidden></div>
+
+<!-- Card data: one file per topic -->
+<script src="js/registry.js"></script>
+<script src="data/01-meetings.js"></script>
+<script src="data/02-clarifying.js"></script>
+<script src="data/03-disagreeing.js"></script>
+<script src="data/04-requests.js"></script>
+<script src="data/05-follow-up.js"></script>
+<script src="data/06-deadlines.js"></script>
+<script src="data/07-presenting.js"></script>
+<script src="data/08-feedback.js"></script>
+<script src="data/09-small-talk.js"></script>
+<script src="data/10-networking.js"></script>
+<script src="data/11-sales-negotiation.js"></script>
+<script src="data/12-trading-floor.js"></script>
+<script src="data/13-between-the-lines.js"></script>
+<script src="data/14-idioms.js"></script>
+<script src="data/15-shortcuts.js"></script>
+<!-- App -->
+<script src="js/speech.js"></script>
+<script src="js/srs.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
